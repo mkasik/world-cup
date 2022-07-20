@@ -55,6 +55,27 @@ header {
 
 }
 
+.animation-title {
+    position: relative;
+    animation: anititle;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes anititle {
+    from {
+        top: -200px;
+    }
+
+    to {
+        top: 30px;
+    }
+}
+
+.animation-title {
+    top: 30px;
+}
+
 .btn {
     height: 60px;
     width: 230px;
@@ -63,6 +84,29 @@ header {
     font-size: 25px;
     border-radius: 8px;
     border: none;
+}
+
+.animation-btn {
+    position: relative;
+    animation: anibtn;
+    animation-duration: 3s;
+    animation-delay: 5s;
+
+}
+
+@keyframes anibtn {
+    from {
+        bottom: -150px;
+    }
+
+    to {
+        bottom: -20px;
+    }
+}
+
+.animation-btn {
+
+    bottom: -20px;
 }
 
 /* Blog section style  */
@@ -475,7 +519,7 @@ footer h1 {
 
     .main {
         height: 400px;
-        width: 700px;
+        width: 740px;
         margin-top: 10px;
         margin-left: 10px;
         display: flex;
@@ -535,7 +579,7 @@ footer h1 {
 
     .blog-section {
         display: inline-block;
-        width: 93%;
+        width: 740px;
         margin-left: 50px;
         margin-top: 50px;
         margin-left: -5px;
@@ -623,7 +667,7 @@ footer h1 {
     footer {
         background-color: black;
         height: 500px;
-        width: 100%;
+        width: 740px;
         margin-top: 50px;
         position: relative;
 

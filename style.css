@@ -32,6 +32,27 @@ header {
     margin-left: 100px;
 }
 
+.animation-title {
+    position: relative;
+    animation: anititle;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes anititle {
+    from {
+        top: -200px;
+    }
+
+    to {
+        top: 30px;
+    }
+}
+
+.animation-title {
+    top: 30px;
+}
+
 .header-item h1 {
     width: 80%;
     color: white;
@@ -64,6 +85,34 @@ header {
     border: none;
     cursor: pointer;
     border: none;
+
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.animation-btn {
+    position: relative;
+    animation: anibtn;
+    animation-duration: 3s;
+    animation-delay: 5s;
+
+}
+
+@keyframes anibtn {
+    from {
+        bottom: -150px;
+    }
+
+    to {
+        bottom: -20px;
+    }
+}
+
+.animation-btn {
+
+    bottom: -20px;
 }
 
 /* Blog section style  */
@@ -97,6 +146,11 @@ header {
 .unmark-btn {
     background-color: white;
     color: black;
+}
+
+.unmark-btn:hover {
+    background-color: red;
+    color: white;
 }
 
 .blog-box {
@@ -293,6 +347,7 @@ footer h1 {
         width: 200px;
         margin-left: 20px;
         text-align: center;
+        margin-top: 40px;
     }
 
     .header-item .btn {
@@ -507,23 +562,21 @@ footer h1 {
 
     .main {
         height: 400px;
-        width: 740px;
+        width: 700px;
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: 10px;
         display: flex;
         background-color: black;
     }
 
     .header-item {
-        margin-top: 100px;
-        margin-left: 60px;
+        margin-top: 50px;
+        margin-left: 30px;
         height: 60px;
 
     }
 
-    .main .header-item {
-        width: 80%;
-    }
+    .main .header-item {}
 
     .header-item h1 {
         font-size: 34px;
@@ -533,12 +586,10 @@ footer h1 {
 
     .header-item p {
         font-size: 15px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 200px;
+        width: 300px;
         margin-left: 20px;
         text-align: center;
+        margin-top: 40px;
     }
 
     .header-item .btn {
@@ -567,8 +618,8 @@ footer h1 {
 
     .blog-section {
         display: inline-block;
-        width: 740;
-        margin-left: 50px;
+        width: 700;
+        margin-left: 10px;
         margin-top: 50px;
     }
 
@@ -606,6 +657,8 @@ footer h1 {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         grid-row-gap: 20px;
+        grid-column-gap: 10px;
+        width: 600px;
 
     }
 
@@ -613,11 +666,16 @@ footer h1 {
 
     .blog-item {
         height: 380px;
-        width: 312px;
+        width: 280px;
         margin-top: 50px;
         border: 0.5px solid gray;
         border-radius: 10px;
+        margin-left: 20px;
 
+    }
+
+    .blog-item .blog-image {
+        width: 280px;
     }
 
     .card-hide {
@@ -684,7 +742,7 @@ footer h1 {
     footer {
         background-color: black;
         height: 500px;
-        width: 100%;
+        width: 700px;
         margin-top: 50px;
         position: relative;
 
