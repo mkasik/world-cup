@@ -1,0 +1,702 @@
+/* Full body style  */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/* Header section style  */
+
+header {
+
+    height: 700px;
+    background-color: black;
+
+}
+
+.main {
+    display: flex;
+    width: 93%;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.header-item {
+    width: 60%;
+
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.header-item h1 {
+    width: 80%;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+
+}
+
+.header-item p {
+    width: 80%;
+    color: white;
+    font-size: 18px;
+}
+
+.header-image img {
+
+    height: 600px;
+    width: 550px;
+    margin-top: 100px;
+
+}
+
+.btn {
+    height: 60px;
+    width: 230px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Blog section style  */
+
+.blog-section {
+    display: flex;
+    width: 93%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.button-box {
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.button-box .btn {
+    margin-top: 45px;
+    margin-left: 60px;
+
+}
+
+.unmark-btn {
+    background-color: white;
+    color: black;
+}
+
+.blog-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 20px;
+
+}
+
+#blog-box-2 {
+    flex-grow: 1;
+}
+
+.blog-item {
+    height: 250px;
+    width: 312px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+
+}
+
+.blog-btn {
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.blog-item h3 {
+    margin-left: 20px;
+}
+
+.card-report {
+    display: flex;
+    margin-left: 20px;
+}
+
+.time {
+    position: relative;
+    width: 30%;
+}
+
+.chat {
+    width: 30%;
+    position: relative;
+}
+
+.time span {
+    display: inline-block;
+    position: absolute;
+    margin-top: 3.5px;
+    margin-left: 6px;
+
+
+}
+
+.chat span {
+    display: inline-block;
+    position: absolute;
+    margin-top: 3.5px;
+    margin-left: 6px;
+
+
+}
+
+.hide {
+    display: none;
+}
+
+.game {
+    display: flex;
+    margin-left: 10px;
+
+
+}
+
+.flag {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.vs {
+    margin-top: 40px;
+}
+
+.blog-item h2 {
+    margin-left: 40px;
+}
+
+.blog-item h5 {
+    margin-left: 80px;
+}
+
+
+/* Footer style  */
+
+footer {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+footer h1 {
+    color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 700px;
+    font-size: 40px;
+}
+
+.footer-hr {
+    position: absolute;
+    border-bottom: 0px solid rgb(23, 23, 23);
+    margin-top: 220px;
+    width: 80%;
+    margin-left: 140px;
+
+
+}
+
+.footer-item {
+    position: absolute;
+    margin-top: 25 0px;
+
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 250px;
+
+}
+
+.footer-menu li {
+    padding-left: 50px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 370px;
+}
+
+.social-icon h3 {
+    color: white;
+}
+
+.social-icon a {
+    padding-left: 10px;
+}
+
+.fa-facebook-square {
+    color: blue;
+}
+
+.fa-instagram-square {
+    color: red;
+}
+
+.fa-linkedin {
+    color: blueviolet;
+}
+
+/* Style for mobile device  */
+
+@media only screen and (max-width: 600px) {
+
+    /* Header section  */
+
+
+
+    .main {
+        height: 600px;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 35px;
+        display: inline-block;
+        background-color: black;
+    }
+
+    .header-item {
+        margin-top: 50px;
+        margin-left: 30px;
+        height: 60px;
+
+    }
+
+    .main .header-item {
+        width: 100%;
+    }
+
+    .header-item h1 {
+        font-size: 25px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .header-item p {
+        font-size: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .header-item .btn {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        height: 35px;
+        width: 160px;
+        font-size: 17px;
+    }
+
+    .header-image {
+        margin-left: 50px;
+        margin-top: 90px;
+        width: 100%;
+    }
+
+    .header-image img {
+        height: 300px;
+        width: 270px;
+    }
+
+    /* Blog section  */
+
+    .blog-section {
+        display: inline-block;
+        width: 93%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .button-box {
+        height: 300px;
+        width: 280px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 60px;
+    }
+
+    .unmark-btn {
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+
+    }
+
+    .blog-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        grid-row-gap: 20px;
+
+
+
+    }
+
+    .blog-item {
+        height: 320px;
+        width: 270px;
+        border: 0.5px solid gray;
+        border-radius: 10px;
+
+
+
+    }
+
+    .hide {
+        display: ;
+    }
+
+    .game {
+        display: flex;
+
+    }
+
+    .flag {
+        margin-left: 10px;
+    }
+
+
+
+
+    /* Footer style  */
+
+    footer {
+        background-color: black;
+        height: 600px;
+        width: 480px;
+        margin-top: 20px;
+        position: relative;
+
+    }
+
+    footer h1 {
+        color: white;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 200px;
+        font-size: 28px;
+    }
+
+    .footer-hr {
+        position: absolute;
+        border-bottom: 0px solid rgb(23, 23, 23);
+        margin-top: 80px;
+        width: 80%;
+        margin-left: 40px;
+
+
+    }
+
+    .footer-item {
+        position: absolute;
+        margin-top: 25px;
+
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 90px;
+        margin-top: 80px;
+
+    }
+
+    .footer-menu li {
+        font-size: 20px;
+        margin-top: 25px;
+
+    }
+
+    .footer-menu li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .social-icon {
+        position: absolute;
+        margin-left: 190px;
+        margin-top: 450px;
+    }
+
+    .social-icon h3 {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Tablet device Style  */
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    /* Header section  */
+
+
+
+    .main {
+        height: 400px;
+        width: 700px;
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        background-color: black;
+    }
+
+    .header-item {
+        margin-top: 100px;
+        margin-left: 60px;
+        height: 60px;
+
+    }
+
+    .main .header-item {
+        width: 80%;
+    }
+
+    .header-item h1 {
+        font-size: 34px;
+        width: 280px;
+        text-align: center;
+    }
+
+    .header-item p {
+        font-size: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .header-item .btn {
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        height: 40px;
+        width: 160px;
+        font-size: 17px;
+    }
+
+    .header-image {
+        margin-left: 20px;
+
+        width: 80%;
+    }
+
+    .header-image img {
+        height: 300px;
+        width: 270px;
+    }
+
+    /* Blog section style  */
+
+    .blog-section {
+        display: inline-block;
+        width: 93%;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-left: -5px;
+    }
+
+    .button-box {
+        height: 100px;
+        display: flex;
+        width: 80%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .button-box .btn {
+        margin-top: 45px;
+        margin-left: 40px;
+        width: 500px;
+        height: 40px;
+
+
+    }
+
+    .unmark-btn {
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+    }
+
+    .blog-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        grid-row-gap: 20px;
+
+    }
+
+
+
+    .blog-item {
+        height: 250px;
+        width: 270px;
+        margin-top: 50px;
+        border: 0.5px solid gray;
+        border-radius: 10px;
+
+    }
+
+    .card-hide {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+
+
+
+    .blog-item h3 {
+        margin-left: 20px;
+    }
+
+    .game {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flag {
+        margin-left: 1px;
+        width: 30%;
+    }
+
+    .vs {
+        width: 10%;
+        margin-left: -40px;
+    }
+
+
+
+
+
+    /* Footer style  */
+
+    footer {
+        background-color: black;
+        height: 500px;
+        width: 100%;
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    footer h1 {
+        color: white;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 250px;
+        font-size: 40px;
+    }
+
+    .footer-hr {
+        position: absolute;
+        border-bottom: 0px solid rgb(23, 23, 23);
+        margin-top: 220px;
+        width: 80%;
+        margin-left: 70px;
+
+
+    }
+
+    .footer-item {
+        position: absolute;
+        margin-top: 25 0px;
+
+    }
+
+    .footer-menu {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: 250px;
+
+    }
+
+    .footer-menu li {
+        padding-left: 10px;
+    }
+
+    .footer-menu li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .social-icon {
+        position: absolute;
+        margin-left: 250px;
+        margin-top: 380px;
+    }
+
+    .social-icon h3 {
+        color: white;
+    }
+
+    .social-icon a {
+        padding-left: 10px;
+    }
+
+    .fa-facebook-square {
+        color: blue;
+    }
+
+    .fa-instagram-square {
+        color: red;
+    }
+
+    .fa-linkedin {
+        color: blueviolet;
+    }
+
+
+}
