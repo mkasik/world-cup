@@ -355,6 +355,7 @@ footer h1 {
         width: 200px;
         margin-left: 20px;
         text-align: center;
+        margin-top: 40px;
     }
 
     .header-item .btn {
@@ -414,7 +415,7 @@ footer h1 {
     }
 
     .blog-item {
-        height: 320px;
+        height: 250px;
         width: 270px;
         border: 0.5px solid gray;
         border-radius: 10px;
@@ -424,7 +425,7 @@ footer h1 {
     }
 
     .hide {
-        display: ;
+        display: none;
     }
 
     .game {
