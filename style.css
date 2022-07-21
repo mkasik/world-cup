@@ -365,12 +365,12 @@ footer h1 {
     .header-image {
         margin-left: 60px;
         margin-top: 90px;
-        width: 80%;
+        width: 270px;
     }
 
     .header-image img {
         height: 300px;
-        width: 270px;
+        width: 100%;
     }
 
     /* Blog section  */
